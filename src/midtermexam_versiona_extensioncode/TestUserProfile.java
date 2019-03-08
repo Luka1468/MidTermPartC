@@ -26,17 +26,15 @@ public class TestUserProfile {
     switch(favGenreint) {
   case 1:
       favGenre="Country";
-      System.out.println("your Profile has been created");
       flag=false;
     break;
   case 2:
     favGenre="Rock";
-    System.out.println("your Profile has been created");
     flag=false;
     break;
     case 3:
     favGenre="Pop";
-    System.out.println("your Profile has been created");
+
     flag=false;
     break;
   default:
@@ -44,7 +42,7 @@ System.out.println("your number is not in the range given, please try again");
 }
     }while(flag);
     UserProfile user =new UserProfile(name,favGenre);
-    
+        System.out.println("your Profile has been created");
     
     
     }
